@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Poppins"; 
+    color: #4B4539;
+}
+
+body {
+    background: #F3FDE8;
+} 
+.heading{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px ;
+    margin-bottom: 40px;
+}
+.heading h1 {
+    font-size: 7rem; 
+    
+    
+} 
+.flag-icon {
+    height: 7rem; 
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+p {
+    font-size: 2rem;
+} 
+
+.dice-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-content: center; 
+} 
+
+.player1 {
+    margin: 0px 200px 10px 10px ;
+} 
+
+.player1 , .player2 { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+
+} 
+.size { 
+    margin-top: 20px; 
+    width: 200px;
+}  
+
+@media (max-width:800px) 
+{
+    .heading h1 {
+        font-size: 5rem; 
+    } 
+    .flag-icon {
+        height: 5rem;
+    }
+
+}
+@media (max-width:700px) 
+{
+    .heading h1 {
+        font-size: 3.25rem; 
+    } 
+    .flag-icon {
+        height: 3.25rem;
+    } 
+    p {
+        font-size: 2rem;
+    } 
+    .size { 
+        margin-top: 20px; 
+        width: 150px;
+    }  
+
+} 
+@media (max-width:430px) 
+{
+    .heading h1 {
+        font-size: 2.5rem; 
+    } 
+    .flag-icon {
+        height: 2.5rem;
+    } 
+    p {
+        font-size: 1.5rem;
+    } 
+    .size { 
+        margin-top: 20px; 
+        width: 200px;
+    }   
+    .player1 {
+        margin: 0px 0px 0px 0px ;
+    } 
+    .player2 {
+        margin-top: 20px;
+    }
+    .dice-container {
+        flex-direction: column; 
+        justify-content: center;
+        align-content: center;
+        
+    } 
+
+} 
+@media (max-width:280px) 
+{
+    .heading h1 {
+        font-size: 2rem; 
+    } 
+    .flag-icon {
+        height: 2rem;
+    } 
+    p {
+        font-size: 1.5rem;
+    } 
+   
+
+}
